@@ -10,8 +10,8 @@
 <div class="container">
   <h1><%= postStory.title %></h1>
   <p>
-    <%= postStory.story.substring(0,160)+" ..."%>
-    <a href="/posts/<%=postStory.title%>">Read More</a>
+    <%= postStory.content.substring(0,160)+" ..."%>
+    <a href="/posts/<%=postStory._id%>">Read More</a>
   </p>
 </div>
 
